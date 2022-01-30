@@ -1,0 +1,17 @@
+:root {
+    background-color: #181e2a;
+    color:white;
+    font-family: "open sans", sans-serif;
+    font-size: 14px;
+    --main-bg-color: hsl(218, 28%, 13%);
+    --intro-mail-bg: hsl(217, 28%, 15%);
+    --footer-bg: hsl(216, 53%, 9%);
+    --testimonials-bg: hsl(219, 30%, 18%);
+    --cyan-accent:hsl(176, 68%, 64%);
+    --blue-accent: hsl(198, 60%, 50%);
+    --light-red-accent: hsl(0, 100%, 63%);
+}
+
+h1, h2, h3 {
+    font-family: "open sans", sans-serif;
+}
