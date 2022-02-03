@@ -1,5 +1,5 @@
 :root {
-    background-color: #181e2a;
+    
     color:white;
     font-family: "open sans", sans-serif;
     font-size: 14px;
@@ -12,26 +12,93 @@
     --light-red-accent: hsl(0, 100%, 63%);
 }
 
-
-h1, h2, h3 {
-    font-family: "open sans", sans-serif;
+body {
+    background-color: var(--main-bg-color);
+    margin: 0px;
+    padding: 0px;
 }
 
-section {
-    padding: 0px 40px;}
+.main_logo {
+    display: flex;
+    align-items: center;
+    max-width: 35%;
+    
+}
+.main_logo img {
+    width: 100%;
+    
+}
+
+.intro_img {
+    max-height: 100%;
+    object-fit:contain;
+    padding: 40px;
+
+}
 
 nav {
     display: flex;
-    padding: 0px 40px;
-    justify-content: space-between;
+    justify-content: space-around;
+    background-color: var(--intro-mail-bg);
+    padding-top: 2rem;;
 }
-
-.nav {
+.nav-list {
     display: flex;
-    list-style: none;
+    list-style-type: none;
+    align-items: center;
 }
+.nav-item{
+    flex: 0 0 auto; 
 
-.nav a {
+}
+.nav-item a {
     color: white;
     margin: 0 1rem;
+    font: 1rem Raleway;
+    text-decoration: none;
+    font-weight: 200;
+}
+
+
+h1, h2, h3 {
+    font-family: "Raleway", sans-serif;
+}
+
+h1 {
+    font-size: 2rem;
+    text-align: center;
+}
+
+
+
+.main_intro {
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;   
+    padding: 0 5vw; 
+    
+    
+    background: url(/images/bg-curvy-mobile.svg) no-repeat bottom/100% var(--intro-mail-bg) ;
+    
+}
+
+.main_intro, .description_card {
+    text-align: center;
+    
+}
+
+
+.get_started_button {
+    font: 700 1.4rem "Raleway", sans-serif;
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(90deg, hsl(176, 68%, 64%) -60%, hsl(198, 60%, 50%) 100%);
+    width: 25rem;
+    height: 5rem;
+    align-self: center;
+    color: white;
+    text-decoration-line: none;
+    border-radius: 100rem;
+    align-items: center;
 }
