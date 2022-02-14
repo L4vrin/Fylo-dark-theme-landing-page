@@ -12,9 +12,7 @@
     --light-red-accent: hsl(0, 100%, 63%);
 }
 
-*{
-    border: 1px solid white;
-}
+
 
 body {
     background-color: var(--main-bg-color);
