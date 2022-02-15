@@ -18,6 +18,7 @@ body {
     background-color: var(--main-bg-color);
     margin: 0px;
     padding: 0rem;
+    box-sizing: content-box;
     
 }
 
@@ -38,6 +39,7 @@ body {
 
 .main_intro h1, .main_intro p{
     margin: 1rem;
+    
    }
 
 .intro_img {
