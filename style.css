@@ -248,7 +248,7 @@ h1 {
 .early_access_form input {
     font: 700 1.4rem "Raleway", sans-serif;
     background-color: white;
-    width: 25rem;
+    width: 20rem;
     height: 5rem;
     align-self: center;
     border-radius: 100rem;
@@ -267,7 +267,7 @@ h1 {
     color: white;
     font: 700 1.4rem "Raleway", sans-serif;
     background: linear-gradient(90deg, hsl(176, 68%, 64%) -60%, hsl(198, 60%, 50%) 100%);
-    width: 25rem;
+    width: 20rem;
     height: 5rem;
     align-self: center;
     border-radius: 100rem;
