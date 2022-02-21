@@ -42,51 +42,54 @@
         Fylo stores all your most important files in one secure location. Access them wherever
         you need, share and collaborate with friends family, and co-workers.
       </p>
-      <a href="#" class="get_started_button">Get Started</a>
+      <a href="#" class="get_started_button button">Get Started</a>
     </section>
-    <section class="description_card">
-      <img src="/images/icon-access-anywhere.svg" alt="" class="card_icon">
-      <h2>Access your files, anywhere</h2>
-      <p>
-        The ability to use a smartphone, tablet, or computer to access your account means your
-        files follow you everywhere.
-      </p>
-    </section>
-    <section class="description_card">
-      <img src="/images/icon-security.svg" alt="" class="card_icon">
-      <h2>Security you can trust</h2>
-      <p>
-        2-factor authentication and user-controlled encryption are just a couple of the security
-        features we allow to help secure your files.
-      </p>
-    </section>
-    <section class="description_card">
-      <img src="/images/icon-collaboration.svg" alt="" class="card_icon">
-      <h2>Real-time collaboration</h2>
-      <p>
-        Securely share files and folders with friends, family and colleagues for live collaboration.
-        No email attachments required.
-      </p>
-    </section>
-    <section class="description_card">
-      <img src="/images/icon-any-file.svg" alt="" class="card_icon">
-      <h2>Store any type of file</h2>
-      <p>
-        Whether you're sharing holidays photos or work documents, Fylo has you covered allowing for all
-        file types to be securely stored and shared.
-      </p>
+    <section class="description_cards_wrapper">
+      <div class="description_card">
+        <img src="/images/icon-access-anywhere.svg" alt="" class="card_icon">
+        <h2>Access your files, anywhere</h2>
+        <p>
+          The ability to use a smartphone, tablet, or computer to access your account means your
+          files follow you everywhere.
+        </p>
+      </div>
+      <div class="description_card">
+        <img src="/images/icon-security.svg" alt="" class="card_icon">
+        <h2>Security you can trust</h2>
+        <p>
+          2-factor authentication and user-controlled encryption are just a couple of the security
+          features we allow to help secure your files.
+        </p>
+      </div>
+      <div class="description_card">
+        <img src="/images/icon-collaboration.svg" alt="" class="card_icon">
+        <h2>Real-time collaboration</h2>
+        <p>
+          Securely share files and folders with friends, family and colleagues for live collaboration.
+          No email attachments required.
+        </p>
+      </div>
+      <div class="description_card">
+        <img src="/images/icon-any-file.svg" alt="" class="card_icon">
+        <h2>Store any type of file</h2>
+        <p>
+          Whether you're sharing holidays photos or work documents, Fylo has you covered allowing for all
+          file types to be securely stored and shared.
+        </p>
+      </div>
     </section>
     <section class="productive_card">
-      <img src="/images/illustration-stay-productive.png" alt="">
-      <h2>Stay productive, wherever you are</h2>
-      <p>
-        Never let location be an issue when accessing your files. Fylo has you covered for all of your file
-        storage needs. <br><br>
-        Securely share files and folders with friends, family and colleagues for live collaboration. No email
-        attachments required.
-      </p>
-      <a href="#" class="blue_link"><span>See how Fylo works <img src="/images/icon-arrow.svg" alt=""></span></a>
-    </section>
+      <div class="productive_img"><img src="/images/illustration-stay-productive.png" alt=""></div>
+      <div class="productive_card_text_wrapper">
+        <h1>Stay productive, wherever you are</h1>
+        <p>
+          Never let location be an issue when accessing your files. Fylo has you covered for all of your file
+          storage needs. <br><br>
+          Securely share files and folders with friends, family and colleagues for live collaboration. No email
+          attachments required.
+        </p>
+        <a href="#" class="blue_link"><span>See how Fylo works <img src="/images/icon-arrow.svg" alt=""></span></a>
+      </div> </section>
     <section class="comments">
       <div class="comment_card">
         <p>
@@ -131,15 +134,15 @@
     </section>
     <div class="get_started_container">
       <section class="get_started">
-        <h2>Get early access today</h2>
-        <p>
+        <h1>Get early access today</h1>
+        <p class="get_started_description">
           It only takes a minute to sign up and our free starter tier is extremely generous. If you have any
           questions, our support team would be happy to help you.
         </p>
       
         <form action="" class="early_access_form">
           <input type="email" name="" placeholder="email@example.com" id="">
-          <button type="submit">Get Started For Free</button>
+          <button type="submit" class="button">Get Started For Free</button>
         </form>
       </section>
     </div>
@@ -148,24 +151,31 @@
   <footer><div class="footer_container">
     
       <a href="#" class="footer_logo"><img src="/images/logo.svg" alt="" class="footer_logo_img"></a>
-      <p class="footer_description">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-        dolore magna aliqua
-      </p>
-      <a href="tel:+1-543-123-4567" class="phone_number">+1-543-123-4567</a>
-      <a href="mailto:example@fylo.com" class="email">example@fylo.com</a>
-      <div class="about_links">
-        <a href="#">About Us</a>
-        <a href="#">Jobs</a>
-        <a href="#">Press</a>
-        <a href="#">Blog</a>
-      </div>
-      <div class="terms_links">
-        <a href="#">Contact Us</a>
-        <a href="#">Terms</a>
-        <a href="#">Privacy</a>
-      </div>
+      
+        <div class="footer_links_container">
+          <p class="footer_description">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore magna aliqua
+          </p>
+          <div class="contact_links">
+                  <a href="tel:+1-543-123-4567" class="phone_number">+1-543-123-4567</a>
+                  <a href="mailto:example@fylo.com" class="email">example@fylo.com</a>
+         </div>
+               
+                <div class="about_links">
+                  <a href="#">About Us</a>
+                  <a href="#">Jobs</a>
+                  <a href="#">Press</a>
+                  <a href="#">Blog</a>
+                </div>
+                <div class="terms_links">
+                  <a href="#">Contact Us</a>
+                  <a href="#">Terms</a>
+                  <a href="#">Privacy</a>
+                </div>
+        </div>
   </div>
+</div>
   </footer>
 
 
