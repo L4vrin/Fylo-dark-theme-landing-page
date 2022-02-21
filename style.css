@@ -376,6 +376,10 @@ footer {
 
 @media (min-width: 854px)  {
 
+    nav {
+        justify-content: center;
+        gap: 30rem;
+    }
     .description_cards_wrapper {
         flex-direction: row;
         flex-wrap: wrap;
